@@ -10,12 +10,10 @@
  */
 angular
   .module('frontEndPracticeApp', [
-    'ngAnimate',
     'ngCookies',
     'ngResource',
     'ngRoute',
-    'ngSanitize',
-    'ngTouch'
+    'ngSanitize'
   ])
   .config(function ($routeProvider) {
     $routeProvider
